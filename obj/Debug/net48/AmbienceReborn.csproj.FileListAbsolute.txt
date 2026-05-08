@@ -1,0 +1,12 @@
+C:\Users\therb\Projects\GTA Mods\AmbienceReborn\obj\Debug\net48\AmbienceReborn.csproj.AssemblyReference.cache
+C:\Users\therb\Projects\GTA Mods\AmbienceReborn\obj\Debug\net48\AmbienceReborn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\therb\Projects\GTA Mods\AmbienceReborn\obj\Debug\net48\AmbienceReborn.AssemblyInfoInputs.cache
+C:\Users\therb\Projects\GTA Mods\AmbienceReborn\obj\Debug\net48\AmbienceReborn.AssemblyInfo.cs
+C:\Users\therb\Projects\GTA Mods\AmbienceReborn\obj\Debug\net48\AmbienceReborn.csproj.CoreCompileInputs.cache
+C:\Users\therb\Projects\GTA Mods\AmbienceReborn\scripts\net48\AmbienceReborn.dll
+C:\Users\therb\Projects\GTA Mods\AmbienceReborn\scripts\net48\AmbienceReborn.pdb
+C:\Users\therb\Projects\GTA Mods\AmbienceReborn\scripts\net48\ManagedBass.dll
+C:\Users\therb\Projects\GTA Mods\AmbienceReborn\scripts\net48\ScriptHookVDotNet3.dll
+C:\Users\therb\Projects\GTA Mods\AmbienceReborn\obj\Debug\net48\Ambience.369E6006.Up2Date
+C:\Users\therb\Projects\GTA Mods\AmbienceReborn\obj\Debug\net48\AmbienceReborn.dll
+C:\Users\therb\Projects\GTA Mods\AmbienceReborn\obj\Debug\net48\AmbienceReborn.pdb

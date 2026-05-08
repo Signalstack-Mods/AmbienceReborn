@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputPath>scripts\</OutputPath>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+
+    <Reference Include="ScriptHookVDotNet3">
+      <HintPath>lib\ScriptHookVDotNet3.dll</HintPath>
+    </Reference>
+
+    <Reference Include="ManagedBass">
+      <HintPath>lib\ManagedBass.dll</HintPath>
+    </Reference>
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LemonUI.SHVDN3" Version="2.2.0" />
+    <PackageReference Include="ManagedBass" Version="4.0.2" />
+  </ItemGroup>
+
+</Project>

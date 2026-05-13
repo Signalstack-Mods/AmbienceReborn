@@ -1,8 +1,0 @@
-{
-  "omnisharp.enableRoslynAnalyzers": true,
-  "files.exclude": {
-    "**/bin": true,
-    "**/obj": true
-  },
-  "csharp.suppressDotnetInstallWarning": true
-}

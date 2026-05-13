@@ -3,24 +3,44 @@
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
     <OutputPath>scripts\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <LangVersion>latest</LangVersion>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Version>1.0.0</Version>
+    <Authors>Signalstack Mods</Authors>
+    <Company>Signalstack Mods</Company>
   </PropertyGroup>
 
   <ItemGroup>
 
     <Reference Include="ScriptHookVDotNet3">
       <HintPath>lib\ScriptHookVDotNet3.dll</HintPath>
+      <Private>false</Private>
     </Reference>
 
-    <Reference Include="ManagedBass">
-      <HintPath>lib\ManagedBass.dll</HintPath>
-    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.Extensions" />
 
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="LemonUI.SHVDN3" Version="2.2.0" />
-    <PackageReference Include="ManagedBass" Version="4.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="config\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>AmbienceReborn\config\%(RecursiveDir)%(Filename)%(Extension)</TargetPath>
+    </Content>
+    <Content Include="data\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>AmbienceReborn\data\%(RecursiveDir)%(Filename)%(Extension)</TargetPath>
+    </Content>
+    <Content Include="sounds\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>AmbienceReborn\sounds\%(RecursiveDir)%(Filename)%(Extension)</TargetPath>
+    </Content>
   </ItemGroup>
 
 </Project>

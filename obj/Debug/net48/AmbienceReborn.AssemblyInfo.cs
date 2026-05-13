@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AmbienceReborn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58ef7f1fc33c0c05cd4c4ac1579e1dbe4bf493d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("AmbienceReborn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AmbienceReborn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

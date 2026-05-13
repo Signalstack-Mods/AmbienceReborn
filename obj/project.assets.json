@@ -18,19 +18,6 @@
           }
         }
       },
-      "ManagedBass/4.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/net45/ManagedBass.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/ManagedBass.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "ScriptHookVDotNet3/3.6.0": {
         "type": "package",
         "compile": {
@@ -62,25 +49,6 @@
         "logo.png"
       ]
     },
-    "ManagedBass/4.0.2": {
-      "sha512": "EzVnBGxqjSzRgLuo94Muauvk1SPwD3LOOHp+4c33iC1EBez+mDW71+gJL35E9V5U5Sb/WNeJxnzHtUNOeOfqdw==",
-      "type": "package",
-      "path": "managedbass/4.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "icon.png",
-        "lib/net45/ManagedBass.dll",
-        "lib/net45/ManagedBass.xml",
-        "lib/net8.0/ManagedBass.dll",
-        "lib/net8.0/ManagedBass.xml",
-        "lib/netstandard2.0/ManagedBass.dll",
-        "lib/netstandard2.0/ManagedBass.xml",
-        "managedbass.4.0.2.nupkg.sha512",
-        "managedbass.nuspec"
-      ]
-    },
     "ScriptHookVDotNet3/3.6.0": {
       "sha512": "YccOvaMnHtFsWuGaZoi2Q/HFj8yyjNBN3b18pvcYYF4JcbjZxR1+I319qaMxRsvW1+iCbBZareQaeq6OpUHotw==",
       "type": "package",
@@ -97,8 +65,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
-      "LemonUI.SHVDN3 >= 2.2.0",
-      "ManagedBass >= 4.0.2"
+      "LemonUI.SHVDN3 >= 2.2.0"
     ]
   },
   "packageFolders": {
@@ -152,10 +119,6 @@
           "LemonUI.SHVDN3": {
             "target": "Package",
             "version": "[2.2.0, )"
-          },
-          "ManagedBass": {
-            "target": "Package",
-            "version": "[4.0.2, )"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203\\RuntimeIdentifierGraph.json"

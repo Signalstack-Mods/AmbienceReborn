@@ -51,10 +51,6 @@
             "LemonUI.SHVDN3": {
               "target": "Package",
               "version": "[2.2.0, )"
-            },
-            "ManagedBass": {
-              "target": "Package",
-              "version": "[4.0.2, )"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203\\RuntimeIdentifierGraph.json"
